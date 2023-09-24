@@ -1,0 +1,14 @@
+		char nomej[30];
+		int idadej, sexoj;
+	printf("Escreva seu nome: \n");
+	gets(nomej);
+	fflush(stdin);
+	printf("Escreva sua idade: \n");
+	scanf("%d", &idadej);
+	do{
+	printf("Qual seu sexo? Escreva 1 para homem, 2 para mulher ou 3 pra outro: \n \n");
+	scanf("%d", &sexoj); 
+	if(sexoj != 1 && sexoj != 2 && sexoj != 3){
+	printf("Valor invalido: \n \n");
+	}
+}while(sexoj != 1 && sexoj != 2 && sexoj != 3);
