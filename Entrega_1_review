@@ -1,0 +1,5 @@
+1° Entrega do trabalho semestral -> Feedbacks
+
+- Estruturas de dados mais adequadas ao deck de cartas (LIFO) 
+- Estruturas de dados mais adequadas às ações dos monstros (FIFO) 
+- Segmentação do código em vários arquivos .h,.c. (Não é interessante o código estar totalmente em um único arquivo)
